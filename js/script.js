@@ -32,11 +32,11 @@ const photos = [
     "./assets/images/DSC03448.JPG", // 3
     "./assets/images/DSC03445.JPG", // 4
     "./assets/images/DSC03440.JPG", // 5
-    "./assets/images/DSC03447.JPG", // 6
+    "./assets/images/DSC03476.JPG", // 6 DSC03476.JPG
     "./assets/images/DSC03449.JPG", // 7
     "./assets/images/DSC03470.JPG", // 8
     "./assets/images/DSC03469.JPG", // 9
-    "./assets/images/DSC03467.JPG", // 10
+    "./assets/images/DSC03447.JPG", // 10
     "./assets/images/DSC03442.JPG"  // 11
 ];
 
