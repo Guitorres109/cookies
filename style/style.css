@@ -452,6 +452,44 @@
 .section-heading { margin-bottom: 40px; }
 .section-heading h2 { font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1; letter-spacing: -.055em; margin: 14px 0; }
 .section-heading p { opacity: .65; }
+
+.assistir-video a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 20px 24px;
+
+    color: var(--brown);
+    background-color: var(--cream-2);
+
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+
+    border: 1px solid var(--brown);
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.assistir-video a:hover {
+    transform: translateY(-5px);
+
+    background-color: var(--cream);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.assistir-video a:active {
+    transform: translateY(-1px);
+}
+
 .video-frame {
   border-radius: var(--radius);
   overflow: hidden;
